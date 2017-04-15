@@ -1,0 +1,80 @@
+/**
+ * globals
+ */
+
+h2.block-title {
+  color: white;
+  position: absolute;
+  text-align: left;
+  font-size: 38px;
+  line-height: 46px;
+}
+h2.block-title em{
+  display: block;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+h3 {
+  font-size: 26px;
+  line-height: 31px;
+}
+
+#logo a{
+  margin: 0 auto;
+  display: table;
+}
+
+.front .header-section{
+  padding-top: 50px;
+}
+
+/**
+ * Main-menu
+ */
+
+#main-menu{
+  margin-bottom: 0;
+}
+ul#main-menu  li{
+  margin: 0;
+}
+ul#main-menu li a{
+  border-bottom: transparent 5px solid;
+}
+ul#main-menu ul.sub-menu li a:hover{
+  border-bottom: none;
+}
+
+ul#main-menu li a,
+ul#main-menu li a:hover {
+  background: transparent;
+  color: black;
+}
+
+ul#main-menu li a:hover{
+  border-bottom: #FFEB88 5px solid;
+}
+
+#main-menu .sub-menu{
+  background: #fff;
+}
+
+/**
+ * Home
+ */
+.header-bottom{
+  background: #333333;
+  color: white;
+}
+.front #main{
+  display: none;
+}
+
+.view-home-3-missions {
+  color: white;
+}
+
+.front h3.field-content {
+  color: white;
+}

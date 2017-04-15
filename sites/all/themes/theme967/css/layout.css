@@ -1,0 +1,41 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  text-align: left;
+}
+
+@media screen and (min-width: 960px) {
+  .region .content {
+
+  }
+  #section_1_wrapper,
+  #section_2_wrapper,
+  #section_3_wrapper {
+    padding: 110px 0 140px;
+  }
+  ul.links li a, ul.links li span {
+    padding: 18px 33px;
+  }
+  .header-bottom .region,
+  .stickup .region{
+    width: 960px;
+    margin: 0 auto;
+
+  }
+
+  .header-bottom .region{
+    padding: 40px 0;
+  }
+  .header-bottom .region p{
+    text-align: center;
+  }
+}

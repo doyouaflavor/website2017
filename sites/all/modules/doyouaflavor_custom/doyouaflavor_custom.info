@@ -1,0 +1,8 @@
+name = Doyouaflavor Custom
+description = Doyouaflavor Custom
+package = Doyouaflavor Custom
+core = 7.x
+files[] = doyouaflavor_custom.module
+files[] = doyouaflavor_custom.install
+
+; configure = admin/config/development/jquery_update
